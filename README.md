@@ -10,13 +10,12 @@ To get started:
 
 ### with docker
 ```bash
-docker build . -t ai
 docker run -d \
     -e TOKEN=your-token-change-this \
     -e PRESENCE=DM or mention for AI response \
     -e INJECT_USER_PROMPT=... \
     -e INJECT_SYSTEM_PROMPT=... \
-    ai
+    ghcr.io/neu-ma-tic/discord-ai
 ```
 
 ### containerless
