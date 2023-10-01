@@ -15,7 +15,7 @@ docker run -d \
     -e PRESENCE=DM or mention for AI response \
     -e INJECT_USER_PROMPT=... \
     -e INJECT_SYSTEM_PROMPT=... \
-    ghcr.io/neu-ma-tic/discord-ai
+    ghcr.io/neu-ma-tic/discord-ai:master
 ```
 
 ### containerless
