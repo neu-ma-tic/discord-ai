@@ -14,5 +14,6 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
+          tags: neu-ma-tic/discord-ai:latest
           push: true
           outputs: type=image
