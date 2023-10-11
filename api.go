@@ -18,7 +18,7 @@ func RunAI(prompt string) string {
 	)
 	body := bytes.NewBuffer([]byte(jsonStr))
 
-	req, err := http.NewRequest("POST", "https://cursor.so/api/chat/stream", body)
+	req, err := http.NewRequest("POST", "https://cursor.sh/api/chat/stream", body)
 	if err != nil {
 		log.Fatalf("Error: %s", err)
 	}
